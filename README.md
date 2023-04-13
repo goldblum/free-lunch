@@ -84,3 +84,13 @@ We include separate README's in each of the experiment-specific folders
 │   ├── label_compression_tabular.py
 │   └── pac_bounds_tabular.py
 ```
+
+## How to Cite:
+```bibtex
+@article{goldblum2023no,
+  title={The No Free Lunch Theorem, Kolmogorov Complexity, and the Role of Inductive Biases in Machine Learning},
+  author={Goldblum, Micah and Finzi, Marc and Rowan, Keefer and Wilson, Andrew Gordon},
+  journal={arXiv preprint arXiv:2304.05366},
+  year={2023}
+}
+```
