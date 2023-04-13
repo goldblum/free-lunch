@@ -1,12 +1,12 @@
 # The No Free Lunch Theorem, Kolmogorov Complexity, and the Role of Inductive Biases in Machine Learning
 
-This repository contains PyTorch implementations for all experiments described in [The No Free Lunch Theorem, Kolmogorov Complexity, and the Role of Inductive Biases in Machine Learning](https://github.com/goldblum/free-lunch) by [Micah Goldblum](https://goldblum.github.io/), [Marc Finzi](https://mfinzi.github.io/), [Keefer Rowan](https://cims.nyu.edu/~kjr9750/), and [Andrew Gordon Wilson](https://cims.nyu.edu/~andrewgw/).  
+This repository contains PyTorch implementations for all experiments described in [The No Free Lunch Theorem, Kolmogorov Complexity, and the Role of Inductive Biases in Machine Learning](https://arxiv.org/abs/2304.05366) by [Micah Goldblum](https://goldblum.github.io/), [Marc Finzi](https://mfinzi.github.io/), [Keefer Rowan](https://cims.nyu.edu/~kjr9750/), and [Andrew Gordon Wilson](https://cims.nyu.edu/~andrewgw/).  
 
 ## Abstract
 
 No free lunch theorems for supervised learning state that no learner can solve all problems or that all learners achieve exactly the same accuracy on average over a uniform distribution on learning problems.  Accordingly, these theorems are often referenced in support of the notion that individual problems require specially tailored inductive biases. While virtually all uniformly sampled datasets have high complexity, real-world problems disproportionately generate low-complexity data, and we argue that neural network models share this same preference, formalized using Kolmogorov complexity.  Notably, we show that architectures designed for a particular domain, such as computer vision, can compress datasets on a variety of seemingly unrelated domains. Our experiments show that pre-trained and even randomly initialized language models prefer to generate low-complexity sequences.  Whereas no free lunch theorems seemingly indicate that individual problems require specialized learners, we explain how tasks that often require human intervention such as picking an appropriately sized model when labeled data is scarce or plentiful can be automated into a single learning algorithm.  These observations justify the trend in deep learning of unifying seemingly disparate problems with an increasingly small set of machine learning models.
 
-[![Preview](/tree.png)](https://github.com/goldblum/free-lunch)
+[![Preview](/tree.png)](https://arxiv.org/abs/2304.05366)
 
 ## Folders
 
