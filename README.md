@@ -15,7 +15,7 @@ Since the experiments in our paper are diverse, we organize them into individual
 
 `compress_data/` - This folder contains code for compressing datasets as an introductory example for bounding Kolmogorov complexity. (Section 3.1)  
 
-`llm_sequences/` - We demonstrate that large larnguage models, including GPT-3 and GPT-2, even ones which are randomly initialized, posess a preference for low-complexity numerical sequences. (Sections 4.3 and 4.4)  
+`llm_sequences/` - We demonstrate that large language models, including GPT-3 and GPT-2, even ones which are randomly initialized, possess a preference for low-complexity numerical sequences. (Sections 4.3 and 4.4)  
 
 `model_selection/` - This folder contains our experiments with polynomial regression and neural networks, showing that a single learner can simultaneously achieve strong performance on large and small datasets, where single architectures typically perform well on only small or large datasets but not both. (Section 5.2)  
 
